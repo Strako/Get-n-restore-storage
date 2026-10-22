@@ -1,0 +1,52 @@
+.restore-page {
+  width: auto;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.restore-page h1 {
+  font-size: 20px;
+}
+
+.target {
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+.option {
+  display: block;
+  margin: 12px 0;
+}
+
+.file-label {
+  display: inline-block;
+}
+
+#restore {
+  display: none;
+}
+
+.log {
+  min-height: 120px;
+  padding: 12px;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 12px;
+}
+
+.log.error {
+  color: #ff6b6b;
+}
+
+.status.error {
+  color: #b00020;
+}
