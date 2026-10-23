@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "get and restore storage",
+    "version": "1.0",
+    "description": "This extension help us obtain or restore all the data from local / session storage.,this tools is QA oriented in order to help reproduce client specific bugs.",
+    "icons": {
+        "16": "icon16.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "icon16.png"
+        },
+        "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Restore storage dump</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="restore.css">
+</head>
+<body class="restore-page">
+  <h1>Restore storage dump</h1>
+
+  <p class="target">
+    Target tab:<br>
+    <strong id="target-title">(unknown)</strong><br>
+    <code id="target-url">(unknown)</code>
+  </p>
+
+  <label for="restore" class="element file-label">Choose storagesDump.json</label>
+  <input type="file" id="restore" accept=".json,application/json">
+
+  <label class="option">
+    <input type="checkbox" id="reload" checked>
+    Reload the target tab after restoring
+  </label>
+
+  <pre id="status" class="log">Waiting for a dump file...</pre>
+
+  <script src="restore.js"></script>
+</body>
+</html>
